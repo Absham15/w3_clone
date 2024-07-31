@@ -1,0 +1,178 @@
+header{
+    width: 100%;
+    height: 80PX;
+    background-color: grey;
+    position: fixed;
+    z-index: 3;
+}
+aside{
+    width: 23%;
+    background-color: rgb(223, 225, 225);
+    height: 88vh;
+    overflow-y: scroll;
+    float: left;
+    position: fixed;
+    bottom: 0px;
+   
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+     background-color: rgb(237, 237, 237);
+     float: right;
+     margin-top: 100px;
+     width: 77%;
+
+    
+
+}
+section >h1{
+    font-size: 42px;
+}
+section > p{
+    font-size: 19px;
+}
+section > h2{
+    font-size: 32px;
+    text-decoration: underline black;
+}
+    
+aside>h2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+aside>ul{
+    font-size: 25px;
+    margin-left: 25px;
+    padding: 5PX 10PX;
+}
+li:hover{
+    cursor: pointer;
+    background-color: green;
+    text-align: center;
+    color: rgb(255, 255, 255);
+   text-decoration: underline 2px rgb(255, 255, 255);
+   font-weight: bolder;
+}
+header > img{
+    width: 70px;
+    height: 65px;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+header > ul{
+   
+    border: 1px solid gray;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    
+}
+ li.ok{
+  display: inline-block;
+  padding: 8px 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  
+ 
+}
+ li.ok:hover{
+   background-color:white;
+   color: green;
+    border: solid black;
+   
+
+}
+div > input{
+    position: absolute;
+    left: 750px;
+    top: 20px;
+    height: 40px;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+div > img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 920px;
+    top:30px;
+}
+img.pizza{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 950px;
+    top:20px ;
+    
+}
+div.hamburger > img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1060px;
+    top: 25px;
+}
+div.hamburger > h2{
+    position: absolute;
+    left: 1111px;
+    top: 28px;
+
+}
+div.nuget > img{
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+    width: 40px;
+    height: 37px;
+}
+div.nuget > h2{
+    position: absolute;
+    left: 1250px;
+    top: 30px;
+}
+div.bar-b-q{
+    position: absolute;
+    left: 1470px;
+    top: 20px;
+    border: solid 2px;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: green;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+div.bar-b-q:hover{
+     background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    border-color: white;
+
+}
+div.nuget:hover{
+    color: rgb(59, 197, 59);
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+div.hamburger:hover{
+    color: rgb(59, 197, 59);
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
